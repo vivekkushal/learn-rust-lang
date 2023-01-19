@@ -10,6 +10,7 @@ fn main() {
     // const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
     // println!("The value of THREE_HOURS_IN_SECOND is: {THREE_HOURS_IN_SECONDS}");
 
+    // Shadowing example
     let x = 5;
 
     let x = x + 1;
@@ -21,6 +22,7 @@ fn main() {
 
     println!("The value of x is: {x}");
 
+    // Shadowing another example
     let spaces = "   ";
     let spaces = spaces.len();
     

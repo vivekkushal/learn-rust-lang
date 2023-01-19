@@ -4,6 +4,6 @@ fn main() {
     x = 6;
     println!("The value of x is: {x}");
 
-    let mut y = x + 10;
+    let y = x + 10;
     println!("The value of y is: {y}");
 }

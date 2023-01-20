@@ -45,4 +45,10 @@ fn main() {
     let remainder = 43 % 5;
 
     println!("{sum}, {difference}, {product}, {quotient}, {truncated}, {remainder}");
+
+    let t = true;
+
+    let f: bool = false; // with explicit type annotation
+
+    println!("{t}, {f}");
 }

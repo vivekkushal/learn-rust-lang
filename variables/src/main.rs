@@ -57,4 +57,10 @@ fn main() {
     let heart_eyed_cat = '😻';
 
     println!("{c}, {z}, {heart_eyed_cat}");
+
+    let tup = (500, 6.4, 1);
+
+    let (x, y, z) = tup;
+
+    println!("The value of x is: {x}, y is: {y}, z is: {z}");
 }

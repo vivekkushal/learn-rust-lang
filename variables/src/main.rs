@@ -52,11 +52,11 @@ fn main() {
 
     println!("{t}, {f}");
 
-    // let c = 'z';
-    // let z: char = 'ℤ'; // with explicit type annotation
-    // let heart_eyed_cat = '😻';
+    let c = 'z';
+    let z: char = 'ℤ'; // with explicit type annotation
+    let heart_eyed_cat = '😻';
 
-    // println!("{c}, {z}, {heart_eyed_cat}");
+    println!("{c}, {z}, {heart_eyed_cat}");
 
     // let tup = (500, 6.4, 1);
 

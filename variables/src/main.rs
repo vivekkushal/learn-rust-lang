@@ -22,11 +22,11 @@ fn main() {
 
     println!("The value of x is: {x}");
 
-    // // Shadowing another example
-    // let spaces = "   ";
-    // let spaces = spaces.len();
+    // Shadowing another example
+    let spaces = "   ";
+    let spaces = spaces.len();
     
-    // println!("The value of spaces is {spaces}");
+    println!("The value of spaces is {spaces}");
 
     // addition
     let sum = 5 + 10;

@@ -46,11 +46,11 @@ fn main() {
 
     // println!("{sum}, {difference}, {product}, {quotient}, {truncated}, {remainder}");
 
-    // let t = true;
+    let t = true;
 
-    // let f: bool = false; // with explicit type annotation
+    let f: bool = false; // with explicit type annotation
 
-    // println!("{t}, {f}");
+    println!("{t}, {f}");
 
     let c = 'z';
     let z: char = 'ℤ'; // with explicit type annotation
